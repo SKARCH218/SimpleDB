@@ -5,6 +5,14 @@
 
 ---
 
+# 설치방법
+
+```bash
+pip install simpledb-wrapper
+```
+
+---
+
 ## 주요 기능
 
 - **SQLite 경량 데이터베이스 처리**
