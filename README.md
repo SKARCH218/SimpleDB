@@ -18,7 +18,11 @@
 ## 사용 예시
 
 ```python
-from simpledb import SimpleDB
+from simpledb_wrapper.simpledb import SimpleDB
+
+# 설치
+# pip install simpledb-wrapper
+
 
 # DB 인스턴스 생성 및 연결
 db = SimpleDB("example.db")
@@ -88,3 +92,7 @@ db.close()
 
 ### `close()`
 DB 연결을 종료합니다.
+
+source venv/bin/activate
+export TWINE_USERNAME="__token__"
+export TWINE_PASSWORD=""
