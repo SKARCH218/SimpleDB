@@ -5,7 +5,7 @@
 
 ---
 
-# 설치방법
+## 설치방법
 
 ```bash
 pip install simpledb-wrapper
